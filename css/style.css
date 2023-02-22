@@ -1,3 +1,4 @@
+/*--------------------------------general----------------------------------------------*/
 /*-------------------------fondo -----------------------------*/
 body {
     background-color: rgb(255, 248, 253);
@@ -43,23 +44,9 @@ nav a {
 
 
 
-/*-----------------SECCION SERVICIOS-------------------*/
 
 
-
-.contenedor{
-  display: flex;
-}
-.card-imagen{
-  background-color: blueviolet;
-  width: 200px;
-  height: 300px;
-  margin: 10px;
-}
-
-
-
-/* ----------------------flexbox -------------------------*/
+/* ----------------------NOSOTROS -------------------------*/
 .row {
   display: -webkit-flex;
   display: flex;
@@ -81,34 +68,7 @@ nav a {
 }
 
 
-.magali{
-  width: 200px;
-  border-radius: 5px
-  ;
-}
-
-.juan-pablo{
-  width: 200px;
-  border-radius: 5px
-}
-
-.maria{
-  width: 200px;
-  border-radius: 5px
-}
-
-.franco{
-  width: 200px;
-  border-radius: 5px
-  ;
-}
-
-.florencia{
-  width: 200px;
-  border-radius: 5px
-}
-
-.sabrina{
+.imagen{
   width: 200px;
   border-radius: 5px
 }
@@ -119,37 +79,51 @@ padding: 20px;
 }
 
 
-
-
-
 .grupo{
   width: 150px;
 }
 
 
+.historia{
+  width:900px;
+  height: auto;
+  background-color: rgb(255, 240, 249);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button{"#"}
+
+/*----------------------------servicios------------------------*/
 
 
-
-
-/* ----------------------flexbox -------------------------*/
 .fila {
   display: flex;
   align-items: center;
 }
 
-/*------------------ columnas ----------------------*/
+
 .columna {
-  -ms-flex: 1;
-  flex: 1;
-  padding: 10px;
-  height: 300px; 
-  background-color: rgba(137, 43, 226, 0.171);
-  border-radius: 5px;
-  margin: 10px;
-  text-align: center;
-  font-size: large;
+-ms-flex: 1;
+flex: 1;
+flex-wrap: wrap;
+padding: 10px;
+height: 300px; 
+background-color: rgba(137, 43, 226, 0.171);
+border-radius: 5px;
+margin: 10px;
+text-align: center;
+font-size: large;
   
 }
+
+
+
+.terapia{
+  width: 200px;
+  border-radius: 5px
+
+}
+
 
 .servicio_paciente{
   color:white;
@@ -168,6 +142,9 @@ padding: 20px;
 
 
 
+
+
+/*-------------------------trabaja con nosotros------------------------*/
 .contenedor-dos {
   max-width: 150rem;
   margin: 14px
