@@ -96,13 +96,13 @@ button{"#"}
 /*----------------------------servicios------------------------*/
 
 
-.fila {
+.row-2 {
   display: flex;
   align-items: center;
 }
 
 
-.columna {
+.column2 {
 -ms-flex: 1;
 flex: 1;
 flex-wrap: wrap;
