@@ -19,17 +19,14 @@ header {
   padding: 10px;
   font-size: larger;
 }
-
-header :hover {
+header header :hover {
   color: blueviolet;
 }
-
-.logo {
+header .logo {
   display: flex;
   align-items: center;
 }
-
-.logo img {
+header .logo img {
   height: 50px;
   margin-right: 10px;
 }
@@ -97,16 +94,14 @@ form {
   margin-top: 20px;
   border-radius: 5px;
 }
-
-.contacto {
+form .contacto {
   color: white;
   text-align: center;
   margin: 0;
   font-size: 30px;
   margin-bottom: 20px;
 }
-
-input, textarea {
+form input, form textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 10px;
@@ -114,40 +109,34 @@ input, textarea {
   font-size: 17px;
   border: none;
 }
-
-textarea {
+form textarea {
   min-height: 100px;
   max-height: 200px;
   min-width: 100px;
 }
-
 @media (max-width: 480px) {
-  form {
+  form form {
     width: 100%;
   }
 }
+
 /*-----------------------Servicios---------------------------*/
 .grid-container {
   display: grid;
   column-gap: 50px;
   grid-template-columns: auto auto auto;
-  background-color: rgb(226, 200, 251);
+  background-color: rgba(177, 71, 189, 0.652);
   padding: 10px;
   font-family: "Courier New", Courier, monospace;
+  border-radius: 5px;
 }
-
-.grid-item {
-  background-color: white;
+.grid-container .grid-item {
+  background-color: rgb(226, 200, 251);
   border: 1px solid rgba(177, 71, 189, 0.652);
   padding: 20px;
   font-size: 30px;
   text-align: center;
-}
-
-/*----------------------disposicion tipo lista footer-------------------------*/
-li {
-  display: inline-block;
-  text-align: center;
+  border-radius: 5px;
 }
 
 /*----------------------footer-------------------------------*/
@@ -159,10 +148,14 @@ footer {
   position: absolute;
   left: 0;
   width: 100%;
+  /*----------------------disposicion tipo lista footer-------------------------*/
 }
-
-footer :hover {
+footer footer :hover {
   color: blueviolet;
+}
+footer li {
+  display: inline-block;
+  text-align: center;
 }
 
 /* ----------------------NOSOTROS -------------------------*/
