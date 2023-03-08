@@ -150,13 +150,22 @@
   
   
 /*-----------------------Servicios---------------------------*/
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: $violeta;
+  padding: $p_10;
+  font-family: 'Courier New', Courier, monospace;
+}
 
-  .grid-container {
-    display: grid;  
-    grid-template-columns: 300px 100px; /* 2 columnas */
-    grid-template-rows: 40px 100px; /* 2 filas */
-    }
-    
+.grid-item {
+  background-color: $blanco;
+  border: 1px solid $violetaoscuro;
+  padding: $p_20;
+  font-size: 30px;
+  text-align: center;
+}
   
   
 /*----------------------disposicion tipo lista footer-------------------------*/

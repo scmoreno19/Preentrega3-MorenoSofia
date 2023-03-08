@@ -129,8 +129,19 @@ textarea {
 /*-----------------------Servicios---------------------------*/
 .grid-container {
   display: grid;
-  grid-template-columns: 300px 100px; /* 2 columnas */
-  grid-template-rows: 40px 100px; /* 2 filas */
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(226, 200, 251);
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid rgba(177, 71, 189, 0.652);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
 /*----------------------disposicion tipo lista footer-------------------------*/
