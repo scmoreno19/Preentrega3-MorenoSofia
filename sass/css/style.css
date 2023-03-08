@@ -1,0 +1,196 @@
+/*--------------------------------variables----------------------------------------------*/
+body {
+  background-color: rgb(255, 248, 253);
+}
+body h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+body h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*----------------------------menu------------------------*/
+header {
+  justify-content: space-between;
+  display: flex;
+  height: 70px;
+  background-color: rgb(226, 200, 251);
+  align-items: center;
+  padding: 10px;
+  font-size: larger;
+}
+
+header :hover {
+  color: blueviolet;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+@media (max-width: 480px) {
+  .historia {
+    width: 100%;
+  }
+}
+.imagen {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.psicocharla {
+  width: 400px;
+  padding: 20px;
+}
+
+.grupo {
+  width: 150px;
+}
+
+.historia {
+  width: 900px;
+  height: auto;
+  background-color: rgba(177, 71, 189, 0.652);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.terapia {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.servicio_paciente {
+  color: white;
+  background-color: rgb(226, 200, 251);
+  text-align: center;
+}
+
+.servicio_psicologo {
+  color: white;
+  background-color: rgb(226, 200, 251);
+  text-align: center;
+}
+
+/*----------------Formulario-----------------*/
+form {
+  width: 600px;
+  margin: auto;
+  background: rgba(177, 71, 189, 0.652);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.contacto {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  min-width: 100px;
+}
+
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+  }
+}
+/*-----------------------Servicios---------------------------*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px 100px; /* 2 columnas */
+  grid-template-rows: 40px 100px; /* 2 filas */
+}
+
+/*----------------------disposicion tipo lista footer-------------------------*/
+li {
+  display: inline-block;
+  text-align: center;
+}
+
+/*----------------------footer-------------------------------*/
+footer {
+  color: white;
+  background-color: rgb(226, 200, 251);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+footer :hover {
+  color: blueviolet;
+}
+
+/* ----------------------NOSOTROS -------------------------*/
+.row-psicologos {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/*------------------ columnas ----------------------*/
+.column-psicologos {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 260px;
+  background-color: rgb(226, 200, 251);
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  font-size: large;
+}
+
+/*----------------------------servicios------------------------*/
+.row-servicios {
+  display: flex;
+  align-items: center;
+}
+
+.column-servicios {
+  -ms-flex: 1;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 10px;
+  height: 300px;
+  background-color: rgb(226, 200, 251);
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  font-size: large;
+}
+
+/*# sourceMappingURL=style.css.map */
