@@ -1,3 +1,4 @@
+/*--------------------------------variables----------------------------------------------*/
 /* ----------------------NOSOTROS -------------------------*/
 .row-psicologos {
   display: -webkit-flex;
@@ -37,4 +38,28 @@
   font-size: large;
 }
 
-/*# sourceMappingURL=columnas_filas.css.map */
+/*-----------------------Servicios---------------------------*/
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(177, 71, 189, 0.652);
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 5px;
+}
+.grid-container .grid-item {
+  background-color: rgb(226, 200, 251);
+  border: 1px solid rgba(177, 71, 189, 0.652);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+@media (max-width: 480px) {
+  .grid-container .grid-item .grid-item {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

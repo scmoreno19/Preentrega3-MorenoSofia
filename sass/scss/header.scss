@@ -1,0 +1,111 @@
+
+/*----------------------------menu------------------------*/
+header{
+    justify-content: space-between;
+    display:flex;
+    height: 70px;
+    background-color: rgb(226, 200, 251);
+    align-items: center;
+    padding: 10px;
+    font-size: larger;
+    header :hover{
+      color: blueviolet;;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+  .logo img {
+      height: 50px;
+     margin-right: 10px;
+  
+    }
+    
+  }
+  
+
+  body {
+    background-color: rgb(255, 248, 253);
+    h1{font-family: 'Courier New', Courier, monospace}
+    h2 {font-family: 'Courier New', Courier, monospace}
+  }
+  
+
+
+  a{text-decoration: none;
+    color: black;}
+    
+    nav a {
+      font-weight: 600;
+      padding-right: $p_10;
+    }
+    
+    
+    
+    
+    @media(max-width:480px){
+      div.historia{
+        width: 100%;
+      }
+    }
+    
+    @media(max-width:480px){
+      div.row-psicologos{
+        width: 100%;
+      }
+    }
+    
+    
+    
+    .imagen{
+      width: 200px;
+      border-radius: $borderradio
+    }
+        
+
+
+
+
+
+
+    .psicocharla{
+        width: 400px;
+      padding: $p_20;
+      }
+      
+      
+      .grupo{
+        width: 150px;
+      }
+      
+      
+      .historia{
+        width:900px;
+        height: auto;
+        background-color: $violetaoscuro;
+        font-family: $arial;
+      }
+      
+      
+      .terapia{
+        width: 200px;
+        border-radius: $borderradio
+      
+      }
+      
+      
+      .servicio_paciente{
+        color:white;
+        background-color: $violeta;
+        text-align: center;
+      }
+      
+      .servicio_psicologo{
+        color:white;
+        background-color: $violeta;
+        text-align: center;
+      }
+      
+      
+        
+      

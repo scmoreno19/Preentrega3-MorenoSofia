@@ -1,0 +1,43 @@
+
+/*----------------Formulario-----------------*/
+form {
+    width: 600px;
+    margin: auto;
+    background: rgba(177, 71, 189, 0.652);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: $p_20;
+    border-radius: $borderradio;
+    .contacto{
+      color: $blanco;
+      text-align: center;
+      margin: 0;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    
+    input, textarea {
+      width: 100%;
+      margin-bottom: $p_20;
+      padding: $p_10;
+      box-sizing: border-box;
+      font-size: 17px;
+      border: none;
+    }
+    
+    textarea {
+      min-height: 100px;
+      max-height: 200px;
+      min-width: 100px;
+    }
+        
+    @media(max-width:480px){
+      form{
+        width: 100%;
+      }
+    }
+    
+  }
+  
+  
+  

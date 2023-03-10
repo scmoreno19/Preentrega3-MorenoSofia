@@ -1,0 +1,76 @@
+
+/* ----------------------NOSOTROS -------------------------*/
+.row-psicologos {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /*------------------ columnas ----------------------*/
+  .column-psicologos {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 260px; 
+    background-color: rgb(226, 200, 251);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    
+  }
+
+  
+
+/*----------------------------servicios------------------------*/
+
+
+.row-servicios {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .column-servicios {
+  -ms-flex: 1;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 10px;
+  height: 300px; 
+  background-color: $violeta;
+  border-radius: $borderradio;
+  margin: $p_10;
+  text-align: center;
+  font-size: large;
+    
+  }
+  
+  
+
+
+
+/*-----------------------Servicios---------------------------*/
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: $violetaoscuro;
+  padding: $p_10;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: $borderradio;
+    .grid-item {
+    background-color: $violeta;
+    border: 1px solid $violetaoscuro;
+    padding: $p_20;
+    font-size: 30px;
+    text-align: center;
+    border-radius: $borderradio;
+    @media(max-width:480px){
+      .grid-item{
+        width: 100%;
+      }
+    }
+  }
+  
+    
+  }
